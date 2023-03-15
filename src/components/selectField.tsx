@@ -13,7 +13,8 @@ const SelectField = () => {
       // filterOption={(input, option) =>
       //   (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
       // }
-      options={[]}
+      options={[] as IOptionSelectField[]}
     />
   );
 };
+export default SelectField;
