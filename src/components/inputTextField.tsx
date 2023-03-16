@@ -1,9 +1,9 @@
 import { Input } from "antd";
 import { Layout, Typography } from "antd";
 import { Controller } from "react-hook-form";
-import { IInputField } from "./inputNumberField";
+import { IFieldProps } from "./inputNumberField";
 
-const InputTextField = ({ name, control }: IInputField) => {
+const InputTextField = ({ name, control }: IFieldProps) => {
   const { Content } = Layout;
   const { Text } = Typography;
   return (

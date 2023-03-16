@@ -2,11 +2,11 @@ import { InputNumber } from "antd";
 import { Layout, Typography } from "antd";
 import { Controller, Control } from "react-hook-form";
 
-export interface IInputField {
+export interface IFieldProps {
   control: Control;
   name: string;
 }
-const InputNumberField = ({ name, control }: IInputField) => {
+const InputNumberField = ({ name, control }: IFieldProps) => {
   const { Content } = Layout;
   const { Text } = Typography;
   return (
